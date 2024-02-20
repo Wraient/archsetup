@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Define the path to your brightness control scripts
+BRIGHTNESS_DOWN_SCRIPT="brightnessctl set 3%-"
+BRIGHTNESS_UP_SCRIPT="brightnessctl set 3%+"
+
+# Function to adjust brightness
+adjust_brightness() {
+    if [[ $1 == "down" ]]; then
+        $BRIGHTNESS_DOWN_SCRIPT
+    elif [[ $1 == "up" ]]; then
+        $BRIGHTNESS_UP_SCRIPT
+    fi
+}
+
+# Listen for ACPI events
+acpi_listen | while IFS= read -r line; do
+    if [[ $line == "video/brightnessdown BRTDN"* ]]; then
+        adjust_brightness "down"
+    elif [[ $line == "video/brightnessup BRTUP"* ]]; then
+        adjust_brightness "up"
+    fi
+done
+

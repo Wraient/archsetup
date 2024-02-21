@@ -1,0 +1,4 @@
+Host phone
+	HostName 192.168.1.3
+	port 8022
+	user u0_a608

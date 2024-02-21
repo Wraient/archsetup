@@ -1,0 +1,7 @@
+
+libinput-gestures and gestures (installed from paru) :
+  libinput-gestures-setup autostart
+  sudo gpasswd -a {user_name} input
+  newgrp input
+  libinput-gestures-setup start
+  gestures

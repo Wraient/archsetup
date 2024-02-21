@@ -10,6 +10,7 @@ discord
 spotify-launcher
 libxft
 libxinerama
+thunar
 unzip
 xwallpaper
 xcompmgr

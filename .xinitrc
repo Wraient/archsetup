@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#test2
-
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources

@@ -39,6 +39,9 @@
 
 # Examples of commands:
 
+# "flameshot gui"
+
+
 "amixer set Master 0%"
   XF86AudioMute
 

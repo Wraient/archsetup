@@ -14,7 +14,6 @@ libxinerama
 thunar
 unzip
 xwallpaper
-xcompmgr
 python-pywal
 xdotool
 noto-fonts
@@ -23,7 +22,6 @@ bluez-utils
 alsa-utils
 neofetch
 zsh-syntax-highlighting
-acpid
 dunst
 openssh
 pcmanfm

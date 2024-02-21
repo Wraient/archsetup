@@ -9,6 +9,7 @@ paths=(
     "/home/wraient/.ssh/config"
     "/home/wraient/.bash_profile"
     "/home/wraient/pix/wall"
+    "/home/wraient/.config/picom.conf"
     # Add more file and folder paths as needed
 )
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#test
+#test2
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap

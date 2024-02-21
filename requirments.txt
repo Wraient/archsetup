@@ -10,6 +10,7 @@ discord
 spotify-launcher
 libxft
 libxinerama
+unzip
 xwallpaper
 xcompmgr
 python-pywal

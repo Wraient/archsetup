@@ -1,6 +1,5 @@
 flameshot
 brightnessctl
-paru
 vim
 zsh
 nano
@@ -10,7 +9,7 @@ telegram-desktop
 discord
 spotify-launcher
 libxft
-libxinrama
+libxinerama
 xwallpaper
 xcompmgr
 python-pywal
@@ -26,3 +25,5 @@ dunst
 openssh
 wmctrl
 gedit
+ttf-jetbrains-mono
+ttf-font-awesome

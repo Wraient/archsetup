@@ -23,6 +23,7 @@ zsh-syntax-highlighting
 acpid
 dunst
 openssh
+pcmanfm
 wmctrl
 gedit
 ttf-jetbrains-mono

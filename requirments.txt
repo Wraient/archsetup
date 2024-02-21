@@ -2,6 +2,7 @@ flameshot
 brightnessctl
 paru
 vim
+zsh
 nano
 git
 firefox

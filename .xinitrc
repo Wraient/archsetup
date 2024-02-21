@@ -36,6 +36,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+/home/wraient/.hidden/archsetup/startup_git_sync.sh
+auto_git
 spotify-launcher & # auto-open spotify
 telegram-desktop & # auto-open telegram
 firefox & # auto-open firefox

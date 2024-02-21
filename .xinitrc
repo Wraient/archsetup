@@ -34,7 +34,12 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+spotify-launcher & # auto-open spotify
+telegram-desktop & # auto-open telegram
+firefox & # auto-open firefox
+discord & # auto-open discord
 brightness_control & # control brightness 
+volume_control & # control volume
 dwmblocks & # taskbar
 newlook & # match terminal look with wallpaper
 xcompmgr & # match terminal look with wallpaper

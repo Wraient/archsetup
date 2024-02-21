@@ -10,6 +10,7 @@ paths=(
     "/home/wraient/.bash_profile"
     "/home/wraient/pix/wall"
     "/home/wraient/.config/picom.conf"
+    "/home/wraient/.xbindkeysrc"
     # Add more file and folder paths as needed
 )
 

@@ -1,3 +1,4 @@
+xbindkeys
 flameshot
 brightnessctl
 vim

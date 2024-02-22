@@ -48,5 +48,5 @@ discord & # auto-open discord
 # dwmblocks & # taskbar
 newlook & # match terminal look with wallpaper
 picom & # xcompmgr & # match terminal look with wallpaper
-# exec dwm
-exec bspwm
+ exec dwm
+# exec bspwm

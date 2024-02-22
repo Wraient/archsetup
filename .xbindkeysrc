@@ -51,9 +51,11 @@
 
 # every window manager
 
-#"flameshot gui" # prt scr
-#"flameshot full --clipboard" # win + prt scr  
+"flameshot gui" # prt scr
+  Mod2 + Print
 
+"flameshot full --clipboard" # win + prt scr  
+  Mod2+Mod4 + Super_L + Mod2 + Print
 
 "amixer set Master 0%"
   XF86AudioMute

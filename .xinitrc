@@ -36,17 +36,22 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+#setxkbmap us &
 xbindkeys &
+sxhkd &
+# auto start applicatoins
 /home/wraient/.hidden/archsetup/startup_git_sync.sh
 auto_git 
 spotify-launcher & # auto-open spotify
 telegram-desktop & # auto-open telegram
 firefox & # auto-open firefox
 discord & # auto-open discord
-# brightness_control & # control brightness 
-# volume_control & # control volume
-# dwmblocks & # taskbar
+
+dwmblocks & # taskbar
 newlook & # match terminal look with wallpaper
 picom & # xcompmgr & # match terminal look with wallpaper
- exec dwm
-# exec bspwm
+polybar
+
+exec dwm
+
+#exec bspwm

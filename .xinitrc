@@ -39,7 +39,10 @@ fi
 #setxkbmap us &
 xbindkeys &
 #sxhkd &
+
+
 # auto start applicatoins
+
 /home/wraient/.hidden/archsetup/startup_git_sync.sh
 auto_git 
 spotify-launcher & # auto-open spotify
@@ -48,6 +51,7 @@ firefox & # auto-open firefox
 discord & # auto-open discord
 
 dwmblocks & # taskbar
+
 newlook & # match terminal look with wallpaper
 picom & # xcompmgr & # match terminal look with wallpaper
 #polybar

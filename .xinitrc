@@ -38,7 +38,7 @@ fi
 
 #setxkbmap us &
 xbindkeys &
-sxhkd &
+#sxhkd &
 # auto start applicatoins
 /home/wraient/.hidden/archsetup/startup_git_sync.sh
 auto_git 
@@ -50,7 +50,7 @@ discord & # auto-open discord
 dwmblocks & # taskbar
 newlook & # match terminal look with wallpaper
 picom & # xcompmgr & # match terminal look with wallpaper
-polybar
+#polybar
 
 exec dwm
 

@@ -45,7 +45,8 @@ firefox & # auto-open firefox
 discord & # auto-open discord
 # brightness_control & # control brightness 
 # volume_control & # control volume
-dwmblocks & # taskbar
+# dwmblocks & # taskbar
 newlook & # match terminal look with wallpaper
 picom & # xcompmgr & # match terminal look with wallpaper
-exec dwm
+# exec dwm
+exec bspwm

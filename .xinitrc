@@ -1,3 +1,5 @@
+#~/.xinitrc
+
 #!/bin/sh
 
 userresources=$HOME/.Xresources

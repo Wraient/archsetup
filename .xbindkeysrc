@@ -41,14 +41,6 @@
 
 # Examples of commands:
 
-# bspwm
-
-"st"
-  Mod2+Mod4 + Super_L + Mod2 + Return
-
-
-
-
 # every window manager
 
 "flameshot gui" # prt scr
@@ -75,9 +67,29 @@
 "rofi -show drun"
   Control + Control_L + space
 
+# bspwm
 
-"xbindkeys_show" 
-  control+shift + q
+# open dmenu
+#"dmenu_run"
+#  Mod4 + Super_L + space
+
+# open st
+#"st"
+#  Mod4 + Super_L + Return
+
+# close window
+#"bspc node -c"
+#  Mod4 + q  
+
+# quit bspwm
+#"bspc quit"
+#  Mod4 + Super_L + Alt + Alt_L + q
+
+# restart bspwm
+#"bspc wm -r"
+#  Mod4 + Super_L  + Alt + Alt_L + r
+
+
 
 # set directly keycode (here control + f with my keyboard)
 # "xterm"

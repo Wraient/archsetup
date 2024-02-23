@@ -12,6 +12,11 @@ paths=(
     "/home/wraient/.config/picom.conf"
     "/home/wraient/.xbindkeysrc"
     "/home/wraient/.config/rofi/"
+    "/home/wraient/.config/sxhkd/"
+    "/home/wraient/.config/bspwm/"
+    "/home/wraient/.config/polybar/"
+
+
     # Add more file and folder paths as needed
 )
 

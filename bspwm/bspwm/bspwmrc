@@ -19,10 +19,10 @@ bspc config gapless_monocle      true
 
 
 # Set specific applications to open in specific workspaces
-bspc rule -a spotify-launcher desktop='^1'
+bspc rule -a spotify-launcher desktop='^1' state=floating
 bspc rule -a TelegramDesktop desktop='^3'
 bspc rule -a discord desktop='^3'
-bspc rule -a firefox desktop='^2'
+bspc rule -a firefox desktop='^2' follow=on
 
 ~/.config/polybar/material/launch.sh &
 /home/wraient/.hidden/archsetup/startup_git_sync.sh

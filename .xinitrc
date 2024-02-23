@@ -36,9 +36,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-setxkbmap us &
+#setxkbmap us &
 #xbindkeys &
-sxhkd &
+#sxhkd &
 
 
 # auto start applicatoins

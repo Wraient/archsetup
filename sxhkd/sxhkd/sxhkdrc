@@ -44,8 +44,8 @@ super + Print
 
 # start rofi
 
-#Control_L+space
-#	rofi -show drun
+ctrl+space
+	rofi -show combi
 
 
 # quit/restart bspwm

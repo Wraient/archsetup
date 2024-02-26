@@ -2,6 +2,7 @@
 
 # List of file paths and folder paths to copy
 paths=(
+    "/home/wraient/.local/bin"
     "/home/wraient/.bashrc"
     "/home/wraient/.zshrc"
     "/home/wraient/.xinitrc"
@@ -16,7 +17,7 @@ paths=(
     "/home/wraient/.config/bspwm/"
     "/home/wraient/.config/polybar/"
     "/home/wraient/.batsignal"
-    "/etc/X11/org.conf.d"
+    "/etc/X11/xorg.conf.d"
 
 
     # Add more file and folder paths as needed

@@ -28,11 +28,11 @@ XF86AudioLowerVolume
 
 # brightness down
 XF86MonBrightnessDown
-	brightnessctl set 10%-
+	brightness_down
 
 # brightness up
 XF86MonBrightnessUp
-	brightnessctl set 10%+
+	brightness_up
 
 # print screen gui
 Print

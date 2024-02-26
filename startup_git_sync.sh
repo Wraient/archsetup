@@ -16,6 +16,7 @@ paths=(
     "/home/wraient/.config/bspwm/"
     "/home/wraient/.config/polybar/"
     "/home/wraient/.batsignal"
+    "/etx/X11/org.conf.d"
 
 
     # Add more file and folder paths as needed

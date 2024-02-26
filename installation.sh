@@ -62,4 +62,4 @@ cd ~
 paru -S python-pywalfox
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 paru -S whatsapp-for-linux
-
+paru -S dmenu-bluetooth

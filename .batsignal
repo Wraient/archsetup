@@ -1,0 +1,13 @@
+-w 50
+-c 35
+-d 10
+-f 100
+-p
+-m 1
+-W "Battery: 50%"
+-C "Battery: 35%"
+-D "sudo shutdown now"
+-F "Battery: full"
+-P "Charging!"
+-U "Charging Disconnected"
+-M notify-send

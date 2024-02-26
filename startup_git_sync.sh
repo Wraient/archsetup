@@ -15,6 +15,7 @@ paths=(
     "/home/wraient/.config/sxhkd/"
     "/home/wraient/.config/bspwm/"
     "/home/wraient/.config/polybar/"
+    "/home/wraient/.batsignal"
 
 
     # Add more file and folder paths as needed

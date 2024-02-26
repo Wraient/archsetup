@@ -21,9 +21,9 @@ bspc config focus_follows_pointer true
 
 
 # Set specific applications to open in specific workspaces
-bspc rule -a spotify-launcher desktop='^1'
-bspc rule -a spotify-launcher state=floating 
-bspc rule -a spotify-launcher follow=off
+bspc rule -a Spotify desktop='^1'
+bspc rule -a Spotify state=floating 
+bspc rule -a Spotify follow=off
 bspc rule -a TelegramDesktop desktop='^3' 
 bspc rule -a TelegramDesktop follow=off
 bspc rule -a discord desktop='^3' 

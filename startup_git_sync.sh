@@ -2,7 +2,6 @@
 
 # List of file paths and folder paths to copy
 paths=(
-    "/home/wraient/.local/bin"
     "/home/wraient/.bashrc"
     "/home/wraient/.zshrc"
     "/home/wraient/.xinitrc"

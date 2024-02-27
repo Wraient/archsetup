@@ -18,13 +18,17 @@ super + Escape
 # bspwm hotkeys
 #
 
+# Mute
+XF86AudioMute
+	volume_mute
+
 # volume up
 XF86AudioRaiseVolume
-	amixer set Master 5%+
+	volume_up
 
 # volume down
 XF86AudioLowerVolume
-	amixer set Master 5%-
+	volume_down
 
 # brightness down
 XF86MonBrightnessDown

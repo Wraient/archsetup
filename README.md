@@ -9,10 +9,10 @@ Arch linux install procedure:
 7. make linux filesystem (your main space) (lets refer to this partition as nvme0n1p6)
 8. 8 gb linux swap partition (lets refer to this partition as nvme0n1p7)
 9. write changes
-10. mkfs.fat -F /dev/nvme0n1p5
+10. mkfs.fat -F32 /dev/nvme0n1p5 
 11. mkfs.ext4 /dev/nvme0n1p6
 12. mkswap /dev/nvme0n1p7
-13. mount /dev/nvme0n1p6 /mnt
+13. mount /dev/nvme0n1p6 /mnt # ALWAYS DO THIS FIRST
 14. mkdir /mnt/boot
 15. mount /dev/nvme0n1p5 /mnt/boot
 16. swapon /dev/nvme0n1p7
